@@ -12,12 +12,12 @@ class Register:
 
         ##====image====
 
-        self.bg =ImageTk.PhotoImage(file="index.jpg")
+        self.bg =ImageTk.PhotoImage(file="images/index.jpg")
         bg=Label(self.root,image=self.bg).place(x=0,y=0,relwidth=1,relheight=1)
 
         ##====image2====
 
-        self.lef =ImageTk.PhotoImage(file="das.png")
+        self.lef =ImageTk.PhotoImage(file="images/das.png")
         lef=Label(self.root,image=self.lef).place(x=100,y=100,width=400,height=500)
 
         #====Frame=======
